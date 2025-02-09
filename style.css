@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+body {
+  background-color: #598392;
+  text-align: center;
+}
+.heading {
+  font-size: 5rem;
+  padding: 4rem;
+}
+.container {
+  height: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game {
+  height: 40rem;
+  width: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.box {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 6rem;
+  color: #b0413e;
+  background-color: #ffffc7;
+}
+
+#reset-btn {
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.msg-container {
+  height: 80rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.msg {
+  font-size: 3rem;
+  color: #ffffc7;
+}
+
+#new-btn {
+  padding: 1.3rem;
+  font-size: 1.5rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  border: none;
+}
+
+.hide {
+  display: none;
+}
